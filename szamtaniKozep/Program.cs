@@ -19,6 +19,9 @@ namespace szamtaniKozep
             double szamtaniKozep = (double)(szam1 + szam2) / 2;
             Console.WriteLine($"A számtani közép: {szamtaniKozep}");
 
+            double mertaniKozep = Math.Sqrt(szam1 * szam2);
+            Console.WriteLine($"A mértani közép: {mertaniKozep:F2}");
+
             Console.ReadKey();
         }
     }
